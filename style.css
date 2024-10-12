@@ -25,3 +25,8 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
+
+.aligned-content {
+    display: flex;
+    gap: 20px;
+}
