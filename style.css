@@ -23,21 +23,23 @@ h6 {
 
 main {
     width: fit-content;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     min-height: 100vh;
+
 }
 
 .aligned-content {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .content-left {
     background-color: var(--graphite-black);
     padding: 20px;
     border-radius: 8px;
-    min-width: 75%
 }
 
 .content-right>img {
