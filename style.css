@@ -24,6 +24,8 @@ main {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    background-color: var(--graphite-black);
+    min-height: 100vh;
 }
 
 .aligned-content {
