@@ -17,18 +17,29 @@ h4,
 h5,
 h6 {
     font-family: Arial Black;
-    font-size: 1.5rem
+    font-size: 1.2rem;
+    margin-top: 0px;
 }
 
 main {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--graphite-black);
     min-height: 100vh;
 }
 
 .aligned-content {
     display: flex;
     gap: 20px;
+}
+
+.content-left {
+    background-color: var(--graphite-black);
+    padding: 20px;
+    border-radius: 8px;
+    min-width: 75%
+}
+
+.content-right>img {
+    border-radius: 8px;
 }
