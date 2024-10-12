@@ -23,10 +23,8 @@ h6 {
 
 main {
     width: fit-content;
-    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    min-height: 100vh;
 
 }
 
@@ -34,6 +32,10 @@ main {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+
 }
 
 .content-left {
