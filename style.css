@@ -47,3 +47,13 @@ main {
 .content-right>img {
     border-radius: 8px;
 }
+
+header {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+header>a {
+    display: block;
+}
