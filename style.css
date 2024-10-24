@@ -58,8 +58,32 @@ header>a {
     display: block;
 }
 
-.block {
+.container {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container-2 {
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+.block,
+.block-2,
+.block-3 {
     width: 200px;
     height: 200px;
     background-color: darkviolet
 }
+
