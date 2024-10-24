@@ -1,8 +1,11 @@
 :root {
+    --index: calc(100vw + 100vh);
+    --intial-index: calc(1536 + 776);
+    --reduced-index: calc(var(--index)/var(--intial-index));
     --jet-black: #0E0E10;
     --graphite-black: #1c1c1c;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14pt;
+    font-size: calc(18*var(--reduced-index));
     color: white;
 }
 
@@ -102,10 +105,12 @@ header>a {
     top: 53%;
     left: 60%;
 }
+
 .container-4 .block:nth-child(2) {
     border-color: blue;
     z-index: -1;
 }
+
 .container-4 .block:nth-child(3) {
     border-color: red;
     bottom: 53%;
