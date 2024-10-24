@@ -57,3 +57,9 @@ header {
 header>a {
     display: block;
 }
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: darkviolet
+}
