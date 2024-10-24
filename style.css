@@ -59,32 +59,28 @@ header>a {
 }
 
 .container {
-    background-color: bisque;
     display: flex;
+    background-color: bisque;
+    gap: 20px;
+    width: 100%;
+}
+
+.container-1 {
     justify-content: center;
 
 }
 
-
-
 .container-2 {
-    background-color: bisque;
-    display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
 }
 
 .container-3 {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    width: 100%;
 }
 
-.block,
-.block-2,
-.block-3 {
+.block {
     width: calc(200/1536*100vw);
     aspect-ratio: 1 / 1;
     background-color: darkviolet
