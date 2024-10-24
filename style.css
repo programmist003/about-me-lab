@@ -80,8 +80,35 @@ header>a {
     flex-wrap: wrap;
 }
 
+.container-4 {
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: center;
+}
+
 .block {
     width: calc(200/1536*100vw);
     aspect-ratio: 1 / 1;
     background-color: darkviolet
+}
+
+.container-4 .block {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+}
+
+.container-4 .block:nth-child(1) {
+    border-color: green;
+    top: 53%;
+    left: 60%;
+}
+.container-4 .block:nth-child(2) {
+    border-color: blue;
+    z-index: -1;
+}
+.container-4 .block:nth-child(3) {
+    border-color: red;
+    bottom: 53%;
+    right: 60%;
+    z-index: -2;
 }
