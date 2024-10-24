@@ -62,6 +62,7 @@ header>a {
     background-color: bisque;
     display: flex;
     justify-content: center;
+
 }
 
 
@@ -71,19 +72,20 @@ header>a {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .container-3 {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px
+    gap: 20px;
+    width: 100%;
 }
 
 .block,
 .block-2,
 .block-3 {
-    width: 200px;
-    height: 200px;
+    width: calc(200/1536*100vw);
+    aspect-ratio: 1 / 1;
     background-color: darkviolet
 }
-
