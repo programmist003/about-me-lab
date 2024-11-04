@@ -9,55 +9,74 @@
 </head>
 
 <body>
-    <table>
-        <caption>Информация о студентах</caption>
-        <thead>
-            <tr>
-                <th>#</th>
-                <th>ФИО студента</th>
-                <th>Телеграм</th>
-                <th>Номер группы</th>
-                <th>Пол</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Аристов Павел</td>
-                <td>@plavlik</td>
-                <td>1205-010303D</td>
-                <td>мужской</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Березин Дмитрий</td>
-                <td>@savesomecats</td>
-                <td>1205-010303D</td>
-                <td>мужской</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Бирюкова Ксения</td>
-                <td>@tinypie1</td>
-                <td>1205-010303D</td>
-                <td>женский</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Дорошина Александра</td>
-                <td>@abyss005</td>
-                <td>1205-010303D</td>
-                <td>женский</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Емельянов Роман</td>
-                <td>@JoverTR</td>
-                <td>1205-010303D</td>
-                <td>мужской</td>
-            </tr>
-        </tbody>
-    </table>
+    <main>
+        <table>
+            <caption>Информация о студентах</caption>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>ФИО студента</th>
+                    <th>Телеграм</th>
+                    <th>Номер группы</th>
+                    <th>Пол</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Аристов Павел</td>
+                    <td>@plavlik</td>
+                    <td>1205-010303D</td>
+                    <td>мужской</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Березин Дмитрий</td>
+                    <td>@savesomecats</td>
+                    <td>1205-010303D</td>
+                    <td>мужской</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Бирюкова Ксения</td>
+                    <td>@tinypie1</td>
+                    <td>1205-010303D</td>
+                    <td>женский</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Дорошина Александра</td>
+                    <td>@abyss005</td>
+                    <td>1205-010303D</td>
+                    <td>женский</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Емельянов Роман</td>
+                    <td>@JoverTR</td>
+                    <td>1205-010303D</td>
+                    <td>мужской</td>
+                </tr>
+            </tbody>
+        </table>
+        <form action="">
+            <fieldset>
+                <legend>Добавить строку в таблицу</legend>
+                <label for="name">ФИО студента:</label>
+                <input type="text" name="name">
+                <label for="teleram">Telegtam:</label>
+                <input type="text" name="telegram">
+                <label for="group">Группа:</label>
+                <input type="text" name="group">
+                <label for="gender">Пол:</label>
+                <select name="gender">
+                    <option value="female">женский</option>
+                    <option value="male">мужской</option>
+                </select>
+                <button type="submit">Добавить</button>
+            </fieldset>
+        </form>
+    </main>
 </body>
 
 </html>
