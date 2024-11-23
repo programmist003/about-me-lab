@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar"><a href="films.html">Фильмы</a></nav>
+    <aside id="aside-menu" class="list-group">
+        <a class="list-group-item list-group-item-action" href="#carousel">Карусель</a>
+        <a class="list-group-item list-group-item-action" href="#cards">Карточки с фильмами</a>
+        <a class="list-group-item list-group-item-action" href="#collapse">Краткая информация об актёре</a>
+    </aside>
+    <main data-bs-spy="scroll" data-bs-target="#aside-menu" data-bs-offset="0">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Jim Carrey/1.jpg" alt="Jim Carrey 1" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Jim Carrey/2.jpg" alt="Jim Carrey 2" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Jim Carrey/3.jpg" alt="Jim Carrey 3" class="d-block w-100">
+                </div>
+            </div>
+        </div>
+        <div id="cards" style="display: flex; flex-wrap: wrap;">
+            <div class="card" style="width: 18rem;">
+                <img src="img/Маска (фильм 1994).jpg" class="card-img-top" alt="Маска (фильм 1994)">
+                <div class="card-body">
+                    <p class="card-text">
+                        Маска (фильм, 1994) — американская супергеройская кинокомедия 1994 года режиссёра Чака Рассела,
+                        снятая по мотивам одноимённой серии комиксов издательства Dark Horse Comics. Главные роли
+                        исполнили Джим Керри, Питер Грин, Эми Ясбек и Питер Ригерт, также фильм является дебютным для
+                        Кэмерон Диас. Сюжет фильма повествует о Стэнли Ипкиссе, невезучем работнике банка, который
+                        находит волшебную маску, с помощью которой превращается в зеленолицего супергероя.
+                    </p>
+                    <a href="https://www.kinopoisk.ru/film/6039/" class="btn btn-primary">Кинопоиск</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/Эйс Вентура — Розыск домашних животных (фильм, 1993).webp" class="card-img-top"
+                    alt="Эйс Вентура: Розыск домашних животных (фильм, 1993)">
+                <div class="card-body">
+                    <p class="card-text">
+                        Эйс Вентура: Розыск домашних животных (фильм, 1993) — комедия Тома Шедьяка с Джимом
+                        Керри в главной роли: дебютная работа режиссёра и первый
+                        фильм из серии приключений об эксцентричном детективе Эйсе Вентуре. Премьера фильма
+                        состоялась 4 февраля 1994 года. Фильм стал лидером американского кинопроката,
+                        несмотря на то, что был холодно оценён кинокритикой, в том числе и за
+                        негативное изображение трансгендерных людей.
+                    </p>
+                    <a href="https://www.kinopoisk.ru/film/2868/" class="btn btn-primary">Кинопоиск</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/Всегда говори да (фильм, 2008).jpg" class="card-img-top"
+                    alt="Эйс Вентура: Розыск домашних животных (фильм, 1993)">
+                <div class="card-body">
+                    <p class="card-text">
+                        Всегда говори да (фильм, 2008) — кинокомедия 2008 года с участием Джима Керри по одноимённому
+                        роману Денни Уоллеса.
+                    </p>
+                    <a href="https://www.kinopoisk.ru/film/391772/" class="btn btn-primary">Кинопоиск</a>
+                </div>
+            </div>
+        </div>
+        <a id="collapse" class="btn btn-primary" data-bs-toggle="collapse" href="#JimCarreyBiography" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            Краткая биография Джима Керри
+        </a>
+        <div class="collapse" id="JimCarreyBiography">
+            <div class="card card-body">
+                Родился 17 января 1962 года в городе Ньюмаркет (Канада). Его родителями были Кэтлин Керри (в
+                девичестве
+                Орам), певица, а позже домохозяйка, и Перси Керри, саксофонист-самоучка и бухгалтер. У Джима
+                есть
+                старшие сёстры Пэт и Рита, и старший брат Джон. Джим рос в католической семье. Его предками были
+                ирландцы, шотландцы, французы (со стороны матери) и франкоканадцы (со стороны отца), и
+                изначально его
+                фамилия звучала как Каррэ. Когда Керри исполнилось 14 лет, его семья переехала в Скарборо
+                (Онтарио),
+                где он в течение двух лет посещал Школу Благословенной Троицы в Норт-Йорке. Следующий год учился
+                в
+                Агинкортском институте, а затем недолго посещал среднюю школу Норсвью (в целом провёл три года в
+                10-м
+                классе).
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
